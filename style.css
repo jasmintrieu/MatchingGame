@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* span{
+  justify-self:center;
+  align-items:center;
+} */
+
+h3 {
+  font-size: 2.5vw;
+}
+
+button {
+  background-color: #cc1445;
+  /* color:white; */
+  width: 30vw;
+  height: 5vw;
+  border-color: black;
+  border-radius: 5px;
+  font-size: 1.5vw;
+
+}
+
+img {
+  width: 15vw;
+  height: 15vw;
+}
+
+h1,
+h2 {
+  justify-self: center;
+  margin: auto;
+  color: black;
+  font-family: Apple Chancery, cursive;
+}
+
+h1 {
+  font-size: 5vw;
+
+}
+
+
+p {
+  color: black;
+  justify-self: center;
+  margin: auto;
+  font: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+hr {
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.game {
+  display: grid;
+  grid-gap: 5vw;
+  grid-template-columns: repeat(4, 10fr);
+  grid-template-rows: repeat(4, 10fr);
+  width: 80vw;
+  height: 80vw;
+  /* max-width:400px; */
+  margin: auto;
+}
+
+.game-cell {
+  background-image: url("cardbackground.png");
+  /* background-color:#1d6131; */
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid;
+  align-items: center;
+  justify-self: center;
+  /* place-items: center; */
+  /* position: center; */
+  box-sizing: border-box;
+}
+
+/* button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#scoreDisplay {
+  font-size: 18px;
+  margin-top: 20px;
+} */
